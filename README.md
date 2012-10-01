@@ -9,20 +9,23 @@ Using the testsuite:
 --------------------
 Use the Makefile/make to compile and run the tests:
 
-> Targets: 
-> libdso.so     build shared library
-> 
-> app           build app   (shared druntime/phobos/libdso)
-> sapp          build sapp  (static druntime/phobos/libdso)
-> sdapp         build sdapp (static druntime/phobos, shared libdso)
-> 
-> test          run app     (shared druntime/phobos/libdso)
-> stest         run sapp    (static druntime/phobos/libdso)
-> sdtest        run sdapp   (static druntime/phobos, shared libdso)
-> 
-> ldd           ldd app     (shared druntime/phobos/libdso)
-> sldd          ldd sapp    (static druntime/phobos/libdso)
-> sdldd         ldd sdapp   (static druntime/phobos, shared libdso)
+Targets: 
+* libdso.so     build shared library
+
+
+* app           build app   (shared druntime/phobos/libdso)
+* sapp          build sapp  (static druntime/phobos/libdso)
+* sdapp         build sdapp (static druntime/phobos, shared libdso)
+
+
+* test          run app     (shared druntime/phobos/libdso)
+* stest         run sapp    (static druntime/phobos/libdso)
+* sdtest        run sdapp   (static druntime/phobos, shared libdso)
+
+
+* ldd           ldd app     (shared druntime/phobos/libdso)
+* sldd          ldd sapp    (static druntime/phobos/libdso)
+* sdldd         ldd sdapp   (static druntime/phobos, shared libdso)
 
 Known problems
 --------------
