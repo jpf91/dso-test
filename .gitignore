@@ -1,0 +1,5 @@
+*.o
+app
+sapp
+sdapp
+libdso.so
